@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.app-bg {
+  background: hsla(0, 0%, 15%, 1);
+
+  background: linear-gradient(
+    270deg,
+    hsla(0, 0%, 15%, 1) 0%,
+    hsla(177, 82%, 11%, 1) 100%
+  );
+
+  background: -moz-linear-gradient(
+    270deg,
+    hsla(0, 0%, 15%, 1) 0%,
+    hsla(177, 82%, 11%, 1) 100%
+  );
+
+  background: -webkit-linear-gradient(
+    270deg,
+    hsla(0, 0%, 15%, 1) 0%,
+    hsla(177, 82%, 11%, 1) 100%
+  );
+
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#262626", endColorstr="#053432", GradientType=1 );
+}
+
+@font-face {
+  font-family: "DMSans";
+  src: url("./assets/fonts/DMSans-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "DMSans";
+  src: url("./assets/fonts/DMSans-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "DMSans";
+  src: url("./assets/fonts/DMSans-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "DMSans";
+  src: url("./assets/fonts/DMSans-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
